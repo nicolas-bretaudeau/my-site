@@ -1,0 +1,113 @@
+body {
+	background-image: url("terrain.jpg");
+	color: black;
+	font-family: courrier;
+	font-size: 17;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	font-family: "roboto", sans serif; 
+}
+
+
+h1 {
+	color: green;
+	font-family: helvetica;
+
+}
+
+h2 {
+	color: darkblue;
+}
+
+p {
+	color: rgb(0, 100, 210);
+}
+
+a  {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+link {
+	color: black;
+	text-decoration: underline;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500x;
+	}
+
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+
+}
+
+
+
+.card-white {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-white img {
+	width: 150px;
+}
+
+.card-white h3{
+	flex-grow: 1;
+	padding-left: 20px;
+}
+
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
